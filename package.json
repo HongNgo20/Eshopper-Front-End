@@ -24,10 +24,15 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    // "start": "react-scripts start",
+    // "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build": "lwc-services --openssl-legacy-provider build -m production",
+    "build:development": "lwc-services --openssl-legacy-provider build",
+    "start": "node --openssl-legacy-provider scripts/server.js",
+    "start:api": "node --openssl-legacy-provider src/server/api.js",
+    "start:client": "node --openssl-legacy-provider scripts/server.js" 
   },
   "eslintConfig": {
     "extends": [
