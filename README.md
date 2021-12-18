@@ -6,7 +6,7 @@ Eshopper: An ecommerce store built with MERN stack, and utilizes third party API
   4) Display the total bill of the cart and update it as soon as the cart is updated by the user.
   5) Option to pay and checkout thus creating order.
 
-features:
+Features:
   1) Node, expressjs provides the backend environment for this application
   2) Express middleware is used to handle requests, routes
   3) Mongoose schemas to model the application data
